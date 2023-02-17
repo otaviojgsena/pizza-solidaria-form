@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# pizza-solidaria
+Aplicação web para geração de pedidos e gestão de pedidos em um evento filantrópico denominado ' Pizza Solidária '!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o evento
 
-## Available Scripts
+Com várias edições anteriores o evento arrecada fundos para o Projeto Segunda Casa, uma instituição de acolhimento para crianças e adolescentes em Campo Grande- MS. Para mais informações sobre a ong segue links: 
 
-In the project directory, you can run:
+Site Institucional: https://www.projetosegundacasa.org.br/
 
-### `npm start`
+Instagram: https://www.instagram.com/projetosegundacasacg/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sobre o App 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A idéia é criar duas interfaces: 
 
-### `npm test`
+A primeira - um formulário - para realizar os pedidos e facilitar a dinâmica, pois são muitos pedidos em um único dia. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A segunda para um administrador controlar o fluxo dos pedidos, como entrega, endereços, pagamentos e etc.
 
-### `npm run build`
+## Tecnologias 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+No front-end irei utilizar ReactJs, possivelmente em conjunto com o NextJs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No back-end irei utilizar NodeJs para criação da API e Prisma para conectar com o banco de dados. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O banco de dados utilizado será o Postgres.
 
-### `npm run eject`
+## Fase atual do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Por enquanto o que foi feito foi o formulário, utilizando o react-create-app, a biblioteca Material UI foi utilizada para facilitar no desgin e o toastify para criar os alertas de validações. Os dados ainda não persistem, link de teste: https://pizza-solidaria-form.vercel.app/ 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Me contrate 
 
-## Learn More
+Estou em busca de uma oportunidade no mercado de trabalho para me contratar pode entrar em contato comigo por e-mail: o.senajgs@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ps. Também pode me enviar um email caso queira contribuir com idéias ou de outra forma com o projeto presente. Abraços. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
